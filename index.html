@@ -41,6 +41,44 @@
 
             text-align: center;
         }
+        .feature-photo{
+            /*background-color: whitesmoke;*/
+        }
+        .feature-photo> #main-picture{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            height: 400px;
+            width: 300px;
+            width: 50%;
+        }
+        .projects{
+            display: flex;
+        }
+        .projects > .project{
+            background-color: #f1f1f1;
+            margin: 20px;
+            padding: 50px;
+            font-size: 30px;
+            height: 100px;
+            width: 500px;
+        }
+        .project-header{
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        .project-header-div{
+            background-color: black;
+        }
+        .project-picture{
+            height: 100px;
+            width:400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
     </style>
     <meta charset="UTF-8">
@@ -65,8 +103,27 @@
             </div>
         </div>
 
+        <div class="feature-photo">
+            <img src="https://live.staticflickr.com/2006/2071390639_b964138c73_b.jpg" alt="picture-of-uplb" id = "main-picture">
+        </div>
 
-        <div></div>
+        <div class = project-header-div>
+            <h4 class = "project-header"> Projects</h4>
+        </div>
+        
+
+        <div class = "projects">
+            
+            <div class = "project" id = "project1">
+                <img src="https://live.staticflickr.com/2006/2071390639_b964138c73_b.jpg" alt="picture-of-uplb" class = "project-picture">
+            </div>
+            <div class = "project" id = "project2">
+                <img src="https://live.staticflickr.com/2006/2071390639_b964138c73_b.jpg" alt="picture-of-uplb" class = "project-picture">
+            </div>
+            <div class = "project" id = "project3">
+                <img src="https://live.staticflickr.com/2006/2071390639_b964138c73_b.jpg" alt="picture-of-uplb" class = "project-picture">
+            </div>
+        </div>
     </div>
     
     <h1>Hello World</h1>
