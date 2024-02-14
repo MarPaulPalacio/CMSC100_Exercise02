@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <style>
+
         .info{
             display: flex;
-            background-color:#abdbe3;
+            background-color:black;
         }
         .info > .item{
             background-color: #f1f1f1;
@@ -12,32 +13,58 @@
             padding: 50px;
             font-size: 30px;
             height: 40px;
-            width: 100px;
+            width: 500px;
+        }
+        .info > .basicInfo{
+            font-size: 10px;
+            
+        }
+        .item > #logopic{
+            float:left;
+            width:600px;
+            height:180px;
+            margin-left: -10%;
+            margin-top:-14%;
         }
         .info > #nameBox{
+            font-size: 15px;
             text-align: center;
-            width: 200px;
-            line-height: 90%;
-        
+            line-height: 8px;
         }
         #name {
-            margin-top: -2%;
-            text-emphasis-color: ;
+            font-size: 40px;
+            margin-top: -3%;
         }
+        #autobiography> .short-autobiography{
+            font-size: 15px;
+            margin-top: -5%;
+
+            text-align: center;
+        }
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: gainsboro">
     <div class = "main">
         <div class="info">
             <div class="item" id = "nameBox">
                 <h4 class = "basicInfo" id = "name">Mar Paul R. Palacio</h4>
+                <h4 class = "basicInfo" id = "address">Pagbilao, Quezon</h4>
+                <h4 class = "basicInfo" id = "address">Computer Science</h4>
             </div>
-            <div class="item">2</div>
-            <div class="item">3</div>
+            <div class="item" id = "userLogo">
+                <img src="https://thumbs.dreamstime.com/b/mp-logo-letter-monogram-slash-modern-designs-template-black-color-white-background-164907808.jpg" id = "logopic" alt = "Logo" >
+            </div>
+            <div class="item" id = "autobiography">
+                <h4 class = "short-autobiography"> I am an organized individual with a passion for designing and developing solutions. I am also eager to hone 
+                    professionalism, leadership, and excellence as a means of growing and thriving in design and technology
+                </h4>
+            </div>
         </div>
+
 
         <div></div>
     </div>
